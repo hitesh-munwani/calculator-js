@@ -1,0 +1,42 @@
+body{
+    background-color:bisque ;
+}
+table{
+    margin: auto;
+    background-color: black;
+    border-style:ridge;
+    border-radius: 15px;
+    box-shadow:1px 5px 10px ;
+    }
+#Equal{
+    width: 110px;
+}
+table input{
+    width: 50px;
+    height: 50px;
+    font-size: large;
+    border-radius: 5px;
+    
+}
+tr{
+    height: 50px; 
+    box-shadow: 1px 1px 12px lightblue;
+}
+td{
+    width: 50px; 
+    box-shadow: 1px 1px 12px lightblue;
+}
+#screen1
+{   background-color: rgb(235, 234, 233);
+    width: 97%;
+    height: 35px;
+    font-size: larger;
+    border-radius:3px;
+    box-shadow: cap;
+    text-shadow: none;
+}
+#CE,#C{
+    background-color: #ff4d4d;
+}
+
+

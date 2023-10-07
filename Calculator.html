@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="mystyle.css"> 
+</head>
+<body>
+    <div id="calculator">
+    <form>
+        <table align="center" border="10px"> 
+            <tr align="center">
+                <th colspan="4"> 
+                    <input type="text"  value="0" id="screen1" style="text-align: right">
+                </th>
+            </tr>
+            <tr  align="center">
+                <td><input type="button" value="CE"  id="CE" onclick="currentEntry()"></td>
+                <td><input type="reset" value="C" id="C"></td>
+                <td><input type="button" value="+/-" onclick="negative()"></td>
+                <td><input type="button" value="÷" onclick="setOperator(this.value)"></td>
+            </tr>
+            <tr  align="center">
+                <td><input type="button" value="7" onclick="setScreen(this.value)"></td>
+                <td><input type="button" value="8" onclick="setScreen(this.value)"></td>
+                <td><input type="button" value="9" onclick="setScreen(this.value)"></td>
+                <td><input type="button" value="*" onclick="setOperator(this.value)"></td>
+            </tr>
+            <tr  align="center">
+                <td><input type="button" value="4" onclick="setScreen(this.value)"></td>
+                <td><input type="button" value="5" onclick="setScreen(this.value)"></td>
+                <td><input type="button" value="6" onclick="setScreen(this.value)"></td>
+                <td><input type="button" value="-" onclick="setOperator(this.value)"></td>
+            </tr>
+            <tr  align="center">
+                <td><input type="button" value="1" onclick="setScreen(this.value)"></td>
+                <td><input type="button" value="2" onclick="setScreen(this.value)"></td>
+                <td><input type="button" value="3"onclick="setScreen(this.value)"></td>
+                <td><input type="button" value="+" onclick="setOperator(this.value)"></td>
+            </tr>
+            <tr  align="center">
+                <td><input type="button" value="0" onclick="setScreen(this.value)"></td>
+                <td><input type="button" value="." onclick="setScreen(this.value)"></td>
+                <td colspan="2" ><input id="Equal" type="button" value="=" onclick="calculation()"></td>
+            </tr>
+        </table>
+    </form>
+    </div>
+    <script src="app.js"></script>    
+</body>
+</html>
